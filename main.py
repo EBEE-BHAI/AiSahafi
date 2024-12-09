@@ -14,7 +14,7 @@ class MainApp:
     def __init__(self, rss_url='https://techcrunch.com/feed/'):
         # OpenAI Client Setup
         self.client = AzureOpenAI(
-            api_key="OPEN-AI API KEY",
+            api_key="Osk-proj-shC3MAb15XpYjYY3XtUafR1sGBDYxI2Ur9Rk3TPs5jnQeV2PsDBOftvWojYumXXPvoGMoLndCFT3BlbkFJfkA0R0aG2loZhUKOhj3_q2d2z9k5wa3yGZZequgTL1T2wrJnfmdApeFuJARMdNjNVLZ_IUdlIA",
             api_version="2024-02-15-preview",
             azure_endpoint="add azure if you use it"
         )
